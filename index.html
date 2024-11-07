@@ -4,13 +4,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lunamix - </title>
+    <title>Lunamix Ltd - Consulting Company</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="navbar__logo">
+                <img src="images/logo.webp" alt="Lunamix Logo" class="logo">
+            </a>
+        </div>
+    </nav>
 
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero__content">
+                <h1 class="hero__title">Welcome to Lunamix</h1>
+                <p class="hero__text">
+                    At Lunamix, we unlock growth opportunities for Corporates and Startups alike. With decades of
+                    entrepreneurial experience, we specialize in crafting tailored startup programs for major Corporates
+                    and empowering Startups with strategic guidance, market positioning, and M&A support.
+                </p>
+            </div>
+        </div>
+    </section>
 
-    <h1>Lunamix comming soon!</h1>
+    <!-- Services Section -->
+    <section class="services">
+        <div class="container">
+            <div class="services__grid">
+                <!-- Corporate Services -->
+                <div class="service-card">
+                    <h3 class="service-card__title">Lunamix for Corporates (MSPs & CSPs)</h3>
+                    <p class="service-card__text">
+                        Scale Your Startup Engagement. We help Corporates drive startup initiatives by creating
+                        custom-built programs that connect innovation with actionable business value.
+                    </p>
+                    <ul class="service-card__list">
+                        <li class="service-card__list-item">Designing startup plans, accelerators, and startup studios
+                        </li>
+                        <li class="service-card__list-item">Crafting strategic incentives and program structures</li>
+                        <li class="service-card__list-item">Aligning communication, language, and branding for startup
+                            engagement</li>
+                        <li class="service-card__list-item">Delivering end-to-end support for effective execution and
+                            scalability</li>
+                    </ul>
+                </div>
+
+                <!-- Startup Services -->
+                <div class="service-card">
+                    <h3 class="service-card__title">Lunamix for Startups</h3>
+                    <p class="service-card__text">
+                        Fuel Your Growth and Market Impact. From refining product strategies to navigating mergers and
+                        acquisitions, we help startups realize their full potential.
+                    </p>
+                    <ul class="service-card__list">
+                        <li class="service-card__list-item">Market positioning and business development support</li>
+                        <li class="service-card__list-item">Product strategy and go-to-market planning</li>
+                        <li class="service-card__list-item">Guidance through M&A processes and asset purchases</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience">
+        <div class="container">
+            <div class="experience__content">
+                <h2>Why Lunamix?</h2>
+                <p>
+                    Our team brings decades of hands-on experience as entrepreneurs, intrapreneurs, and advisors. We've
+                    built and sold companies, launched successful startup programs for Cloud Solution Providers, and
+                    facilitated numerous mergers and acquisitions. This extensive background enables us to de-risk your
+                    innovation journey, ensuring a smoother path to impact and profitability.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="container">
+            <form class="contact__form">
+                <div class="form-group">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" id="name" class="form-input" required>
+                </div>
+                <div class="form-group">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" id="email" class="form-input" required>
+                </div>
+                <div class="form-group">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea id="message" class="form-input" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn--primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="currentYear"></span> Lunamix Ltd. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
